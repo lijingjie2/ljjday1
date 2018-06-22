@@ -91,5 +91,15 @@ $(function() {
 			$(".page4-lighton").fadeIn("slow");
 		})
 	})
-
+	$(".musicbtn").click(function(){
+		var music=$("#music")[0];
+		if(music.paused){
+			music.play();
+			$(this).attr("src","img/musicBtn.png")
+		}else{
+			music.pause();
+			$(this).attr("src","img/musicBtnOff.png")
+		}
+	})
+ 
 })
