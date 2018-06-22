@@ -1,0 +1,256 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	position: absolute;
+}
+
+.page {
+	position: relative;
+}
+
+img {
+	position: absolute;
+}
+
+.page1 {
+	background: #00ccff;
+}
+
+.page1-building {
+	width: 100%;
+	height: 30%;
+	bottom: 0;
+	z-index: 1;
+	display: none;
+}
+
+.page1-elements {
+	width: 90%;
+	height: 90%;
+	animation: zooming 1.5s linear infinite;
+}
+
+.page1-flight {
+	width: 0px;
+	left: 50%;
+	margin-left: -40%;
+	bottom: 30%;
+	animation: zooming2 1.5s linear infinite;
+}
+
+@keyframes zooming2 {
+	0% {
+		transform: scale(0.9);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0.9);
+	}
+}
+
+.page1-txt {
+	top: 15%;
+	width: 60%;
+	height: 18%;
+	left: 50%;
+	margin-left: -30%;
+}
+
+.page1-flowers01 {
+	width: 15%;
+	height: 10%;
+	top: 15%;
+	left: 10%;
+	z-index: 1;
+	animation: rotate 1.5s linear infinite;
+}
+
+.page1-flowers02 {
+	right: 13%;
+	top: 23%;
+	width: 23%;
+	height: 15%;
+	z-index: 1;
+	animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(30deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	55% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-30deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.page1-stars {
+	width: 100%;
+	height: 100%;
+}
+
+.page1-cloud {
+	top: 10%;
+	left: 50%;
+	margin-left: -40%;
+	width: 80%;
+	height: 80%;
+	animation: zooming 1.5s linear infinite;
+}
+
+@keyframes zooming {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.page2 {
+	background: powderblue;
+}
+
+.page2-bg {
+	width: 100%;
+	height: 100%;
+}
+
+.page2-farm {
+	width: 70%;
+	right: 0%;
+	top: 33%;
+	display: none;
+}
+
+.page2-it {
+	width: 70%;
+	right: 0%;
+	bottom: 33%;
+	display: none;
+}
+
+.page2-star {
+	width: 100%;
+	height: 100%;
+}
+
+.page3-earlybg {
+	width: 100%;
+	height: 100%;
+}
+
+.page3-lastbusstation {
+	width: 100%;
+	bottom: 0;
+}
+
+.page3-bus {
+	z-index: 1;
+	width: 65%;
+	bottom: 10%;
+}
+
+.page3-lastbusavatar {
+	width: 30%;
+	bottom: 12%;
+	right: 5%;
+	z-index: 1;
+}
+
+.page3-earlybuilding {
+	width: 100%;
+	bottom: 0;
+}
+
+.page3-earlytitle {
+	width: 40%;
+	display: none;
+}
+
+.page3-lastbustitle {
+	width: 40%;
+	top: 10%;
+	display: none;
+}
+
+.page3-myteamwall {
+	width: 25%;
+	height: 70%;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.page3-myteamavatar {
+	left: 69%;
+	bottom: 67%;
+	display: none;
+}
+
+.page3-myteamwhere {
+	left: 5%;
+	bottom: 5%;
+	width: 0px;
+}
+
+.page3-myteamspace {
+	left: 5%;
+	top: 25%;
+	width: 0px;
+}
+.page4{
+	background: dodgerblue;
+}
+.page4-lightoffbg {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.page4-lightoff{
+	left: 15%;
+	height: 66%;
+	bottom: 0;
+	z-index: 2;
+}
+.page4-cornertitle{
+	right: 0;
+	top: 15%;
+	z-index: 3;
+}
+.page4-clickguide{
+	width: 66%;
+	top: 45%;
+	left: 30%;
+	z-index: 4;
+}
+.page4-lighton{
+	left: 15%;
+	height: 66%;
+	bottom: 0;
+	
+}
+.page4-lightonbg{
+	width: 100%;
+	height: 100%;
+	
+}
